@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    background-color: rgb(40, 40, 40);
+    font-family: "Zilla Slab";
+}
+section {
+    display: grid;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column: 1fr 1fr 1fr;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 15px;
+    border-radius: black;
+    text-align: center;
+    box-sizing: 40px;
+    max-width: 300px;
+}
+h2 {
+    margin-top: 0;
+    font-size: 2.3em;
+}
+h1 {
+    color: rgb(13, 13, 233);
+    margin-bottom: 0;
+    font-size: 1em;
+    z-index: 1;
+}
+p {
+    margin-left: 13%;
+    margin-right: 13%;
+    font-family: 'Lato', sans-serif;
+    color: #8b808b;
+}
+.h3_1 {
+    color: white;
+    grid-column: 1/1;
+    grid-row: 1;
+    margin-bottom: 0;
+}
+.h3_2 {
+    color: white;
+    grid-column: 2/2;
+    grid-row: 1;
+    border: 5px white;
+    border-radius: white;
+    margin-bottom: 0;
+}
+.h3_3 {
+    color: white;
+    grid-column: 3/3;
+    grid-row: 1;
+    margin-bottom: 0;
+}
+div {
+    background-color: #23395d;
+    display: grid;
+    grid-column: 1fr 1fr 1fr;
+    grid-row: 7;
+    grid-column: 0;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.h4_1 {
+    color: white;
+    margin-top: 0;
+    max-width: 33%;
+    margin: 0 auto;
+}
+.h4_2 {
+    color: white;
+    margin-top: 0;
+    max-width: 33%;
+    margin: 0 auto;
+}
+.h4_3 {
+    color: white;
+    grid-column: 0;
+    margin-top: 0;
+    max-width: 33%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+img {
+    border-radius: 15px 15px 0px 0px;
+}
